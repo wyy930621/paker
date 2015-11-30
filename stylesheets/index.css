@@ -1,0 +1,59 @@
+body{
+	margin:0;
+	font-family:'cooper';
+	background: green;
+	/*background:url(../img/pokerbot_2x_1x.png);*/
+	}
+	#sence{
+		width: 800px;
+		height:800px;
+		margin:0 auto;
+		padding:0;
+		position: relative;
+	}
+	.poker{
+		width: 100px;
+    	height: 150px;
+    	background-color: rgb(51, 255, 104);;
+  		/*box-shadow: 1px 1px 1px #422E2E;*/
+  		position: absolute;
+  		background-size:cover;
+  		z-index: 999;
+  		color:black;
+  		border-radius: 5px;
+  		border: 1px solid #ADABAB;
+	}
+	.remain-poker{
+	    position:absolute;
+	    bottom:0;
+	    left:0;
+	}
+	.set{
+		width: 100px;
+    	height: 150px;
+    	position: absolute;
+    	/*border:1px solid black;	*/
+	}
+	#left-set{
+		bottom: 120px;
+    	left: 100px;
+	}
+	#right-set{
+		bottom: 120px;
+    	right: 100px;
+	}
+	.button{
+		width: 50px;
+		height: 30px;
+		border:1px solid black;
+		position: absolute;
+		
+	}
+	#move-to-left{
+		bottom:180px;
+		left:300px;
+	}
+	#move-to-right{
+		bottom:180px;
+		right:300px;
+	}
